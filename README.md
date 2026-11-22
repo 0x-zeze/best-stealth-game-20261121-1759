@@ -10,7 +10,7 @@ move fast only in shadow, steal the Star Chart, and reach the green EXIT unseen.
 
 - **Fast in shadow, slow in light.** You run at 175 px/s in the dark blue shadow
   and only 95 px/s under the warm lamps.
-- **Exposure meter (HUD).** Standing or moving in light fills it (+24/s moving,
+- **Exposure meter (HUD).** Standing or moving in light fills it (+28/s moving,
   +15/s standing). In shadow it drains (−20/s). At **100% the guard is called**
   to your position.
 - **Shift = sneak.** 68 px/s, silent — and it fills **no** exposure even in light.
@@ -76,8 +76,8 @@ stages each screenshot scene deterministically.
 ## Numbers (the evidence)
 
 3 rooms · 1 guard · 1 CCTV camera · 2 statue covers · 3 suspicion stages ·
-1 loot (Star Chart) · 1 exit · exposure 0–100 · guard vision 215 px / ±32° ·
-patrol 78 px/s · chase 205 px/s · shadow 175 px/s · light 95 px/s · sneak 68 px/s
+1 loot (Star Chart) · 1 exit · exposure 0–100 · guard vision 235 px / ±32° ·
+patrol 88 px/s · chase 205 px/s · shadow 175 px/s · light 95 px/s · sneak 68 px/s
 
 ## License
 

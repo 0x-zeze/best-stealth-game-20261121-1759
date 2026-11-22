@@ -57,12 +57,12 @@ export const GUARD_WAYPOINTS = [
   { x: 500, y: 560 },
 ];
 export const GUARD = {
-  speedPatrol: 78,
+  speedPatrol: 88,
   speedChase: 205,
-  visionRange: 215,
+  visionRange: 235,
   visionHalfAngle: 0.56, // ~32 degrees each side
   catchDistance: 24,
-  suspicionGain: 58, // per second while the player is seen
+  suspicionGain: 64, // per second while the player is seen
   suspicionCalm: 40, // below this: CALM (patrol)
   suspicionChase: 80, // at/above this: CHASE (!)
   loseSightSeconds: 3,
@@ -83,7 +83,7 @@ export const PLAYER = {
 
 // Exposure meter 0..100: light fills it, shadow drains it, CCTV fills it fast.
 export const EXPOSURE = {
-  lightMoving: 24,
+  lightMoving: 28,
   lightStanding: 15,
   shadowDrain: 20,
   cctvSeen: 48,
